@@ -1,1 +1,10 @@
-# Global-AI-Hub-Veri-Analizi-Bootcamp
+# Veri Seti Özeti
+Veri seti The Behavioral Risk Factor Surveillance System (BRFSS) tarafından her yıl toplanan sağlıkla ilgili bir telefon anketidir. Her yıl 400.000'den fazla Amerikalıdan sağlık ile ilgili risk davranışları, kronik sağlık koşulları ve önleyici hizmetlerin kullanımı hakkında yanıtlar toplar. 1984'ten beri her yıl yürütülmektedir. Bu proje için, 2015 yılı için Kaggle'da bulunan veri setinin bir csv'si kullanıldı. Bu orijinal veri seti 441.455 kişiden gelen yanıtları içerir ve 330 özelliğe sahiptir. Bu özellikler, katılımcılara doğrudan sorulan sorular veya bireysel katılımcı yanıtlarına dayalı hesaplanan değişkenlerdir.
+
+# PROJE OZETİ AMACI VE YONTEMİ
+Diyabet, vücudunuzunda pankreas adlı salgı bezinin yeterli miktarda insülin hormonu üretmemesi ya da ürettiği insülin hormonunun etkili bir şekilde kullanılamaması durumun da gelişen ve ömür boyu süren bir kronik hastalıktır. Türkiye de şimdi 7 milyondan fazla kişi bu hastalıktan mağdurdur. Elimizdeki verilere göre bu durum dünya genelinde 2050 yılında 1.8 milyar kişi olabilir. Bu projede şimdiki ve gelecekte de olacak diyabet hastalığını ele aldık. Diyabet hastalığının tedavisi olmadığı için ve bu hastalığa yakalanmış veya yakında milyarlarca kişi muzdarip olmaması için çeşitli veri analizleri yapılmış ve projenin geliştirilmesi için gereken gereksinimlerle gerekli olan veri setleri önerilmiştir. Aynı zamanda elimizdeki verilerden yararlanarak diyabet hastalığı ile yüksek kolesterolün ilişkili olduğunu yani diyabet hastası olan bir bireyin kolesterol hastalığına da yatkın olduğu kanıtlanmıştır. Projemizde popüler olan veri analizi kütüphanelerinde pandas ve numpy, veri görselleştirmede matplotlib, seaborn son olarak ki kare testi içinde scipy kütüphanesi kullanılmıştır.
+
+Projenin Kaggle linki = https://www.kaggle.com/code/burademrbas/global-ai-hub-veri-analizi-bootcamp#VER%C4%B0-SET%C4%B0-HAKKINDA-B%C4%B0LG%C4%B0
+
+# Veri Tipleri
+Diabetes_binary float64 HighBP float64 HighChol float64 CholCheck float64 BMI float64 Smoker float64 Stroke float64 HeartDiseaseorAttack float64 PhysActivity float64 Fruits float64 Veggies float64 HvyAlcoholConsump float64 AnyHealthcare float64 NoDocbcCost float64 GenHlth float64 MentHlth float64 PhysHlth float64 DiffWalk float64 Sex float64 Age float64 Education float64 Income float64
